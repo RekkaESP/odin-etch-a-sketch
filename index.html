@@ -8,16 +8,27 @@
 <body>
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="./js/script.js" defer></script>
-    <div id="header"></div>
+    <div id="header">
+        <h1>Etch-a-sketch</h1>
+    </div>
     <div id="content">
         <div id="container-controls">
             <button id="button-size">Set size</button>
+            <button id="button-clear">Clear grid</button>
+        </div>
+        <div id="container-colors">
+            <button id="button-rainbow">Rainbow</button>
+            <button id="button-progressive">Darken</button>
+            <input type="color" id="input-colorpicker" name='cardcolor' value="#ffffff"/>
         </div>
         
         <div id="container-grid">
 
         </div>
     </div>
-    <div id="footer"></div>
+    <div id="footer">
+        <span>Created by Rekka</span>
+        <span><a href="https://www.theodinproject.com/about">Odin Project</a></span>
+    </div>
 </body>
 </html>
