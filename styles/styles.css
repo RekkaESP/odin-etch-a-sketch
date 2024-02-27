@@ -1,3 +1,7 @@
+*{
+    font-family: serif;
+    
+}
 body{
     display: flex;
     flex-direction: column;
@@ -11,6 +15,12 @@ body{
     padding: 0;
     flex-basis: 80px;
 }
+#header h1{
+    padding-left: 50px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1a1d2e;
+}
 #content{
     flex: 1;
     display: flex;
@@ -20,15 +30,15 @@ body{
 }
 #container-controls{
     display: flex;
-    gap: 8px;
+    gap: 16px;
     margin-top: 16px;
     margin-bottom: 16px;
 }
 #container-colors{
     display: flex;
-    gap: 8px;
+    gap: 16px;
     margin-top: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 #container-grid{
     display: flex;  
@@ -63,4 +73,37 @@ background-color: #424874;
 box-shadow: 0px -1px 10px #424874;
 padding: 0;
 flex-basis: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 50px;
+font-weight: bold;
+color: #f4eeff;
+}
+
+a{
+    font-weight: 900;
+    text-decoration: none;
+    color: #f4eeff;
+}
+
+button, input{
+    width: 100px;
+    height: 30px;
+    background-color: #a6b1e1;
+    color: #1a1d2e;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px #424874;
+    cursor: pointer;
+}
+
+button:hover, input:hover{
+
+    box-shadow: inset 5px #f4eeff;
+    background-color: #424874;
+    color: #f4eeff;
+
 }
