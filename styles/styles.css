@@ -18,12 +18,15 @@ body{
 
 #container-grid{
     display: flex;  
+    flex-shrink: 0;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    aspect-ratio: 1/1;
-    width: 540px;
+    flex-basis: 520px;
+    height: 100%;
     gap: 0;
+    border: 1px solid black;
+    aspect-ratio: 1/1;
     
 }
 .line{
@@ -35,7 +38,7 @@ body{
 .card{
     flex-shrink: 0;
     flex-grow: 1;
-    border: 1px solid black;
+    /*border: 1px solid red;*/
     aspect-ratio: 1/1;
 }
 
